@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    gap:10px;
+    text-align: center;
+    width: 50%;
+    grid-template-columns: auto auto auto auto;
+}
+.big1{
+    padding: 20px;
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 2;
+    background-color: rgb(118, 118, 233);
+    color: antiquewhite;
+}
+.title2{
+    padding: 20px;
+    background-color: rgb(118, 118, 233);
+    color: antiquewhite;
+}
+.big2{
+    padding: 20px;
+    grid-column: 1/ span 2;
+    grid-row: 3/ span 2;
+    background-color: rgb(118, 118, 233);
+    color: antiquewhite;
+}

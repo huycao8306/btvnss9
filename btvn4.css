@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    gap:10px;
+    grid-template-columns: auto;
+    width: 50%;
+}
+.header{
+    background-color: rgb(64, 190, 248);
+    grid-column: 1/ span 2;
+    padding: 10px;
+}
+.sidebar{
+    background-color: rgb(21, 238, 104);
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
+.content {
+    background-color: rgb(240, 68, 68);
+    width: 700px;
+    padding: 10px;
+}
+.footer{
+    background-color: rgb(192, 60, 232);
+    grid-column: 1/ span 2;
+    padding: 10px;
+}

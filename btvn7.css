@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.tieude{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(25, 24, 24);
+    color:rgb(238, 238, 238);
+    padding: 10px;
+}
+.tieude-link{
+    color:rgb(194, 191, 191);
+    text-decoration: none;
+    margin: 10px;
+}
+.noidung{
+    display: inline-block;
+    margin: 10px 150px;
+    line-height: 40px;
+}
+.noidung1{
+    background-color: rgb(194, 191, 191);
+    padding: 20px;
+}
+.content1 a{
+    text-decoration: none;
+}
+.noidung2{
+    padding: 20px;
+    background-color: rgb(198, 195, 195);
+}
+.ghichu{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px;
+}
